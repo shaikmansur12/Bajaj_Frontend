@@ -1,0 +1,90 @@
+/* App.css */
+
+/* Center everything within the app */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f4f8;
+}
+
+/* Styling for the textarea */
+textarea {
+  width: 50%;
+  height: 120px;
+  border: 2px solid #007bff;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 16px;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+/* Add a subtle box shadow on focus */
+textarea:focus {
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+}
+
+/* Styling for the submit button */
+button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Dropdown styling for multi-select */
+select[multiple] {
+  width: 50%;
+  padding: 10px;
+  margin-top: 15px;
+  border: 2px solid #007bff;
+  border-radius: 12px;
+  background-color: #fff;
+  font-size: 16px;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+  height: 150px; /* Increased height for multiple options */
+  overflow-y: auto; /* Scroll when there are many options */
+}
+
+/* Add shadow to the select dropdown when focused */
+select[multiple]:focus {
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+}
+
+/* Styling for the response heading */
+h3 {
+  margin-top: 30px;
+  font-size: 24px;
+  color: #007bff;
+}
+
+/* Styling for the response pre-formatted text */
+pre {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #007bff;
+  border-radius: 12px;
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+  width: 50%;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,20 @@
+/* index.css */
+
+/* General body styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #e9ecef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container styling */
+#root {
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
